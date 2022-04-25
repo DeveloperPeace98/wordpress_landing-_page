@@ -1,0 +1,130 @@
+.pricing_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pricing_plan {
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    columns: #5555;
+    margin: 15px;
+}
+
+.pricing_header {
+    padding: 25px;
+    background: #009578;
+    color: #fff;
+}
+
+.pricing_title,
+.pricing_summary {
+    margin: 0;
+    text-align: center;
+}
+
+.pricing_title {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.pricing_summary {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.pricing_description {
+    padding: 25px;
+}
+
+.pricing_list {
+    padding: 0;
+    margin: 0;
+}
+
+.pricing_feature {
+    list-style: none;
+    margin: 0;
+    padding-left: 25px;
+    position: relative;
+    font-size: 0.9em;
+}
+
+.pricing_feature:not( :last-child) {
+    /*Targetting every element that is not the last element */
+    margin-bottom: 0.5em;
+}
+
+.pricing_feature::before {
+    content: "\2714";
+    color: #009578;
+    position: absolute;
+    left: 0;
+}
+
+.pricing_action {
+    padding: 25px;
+    border-top: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing_button {
+    display: inline-block;
+    margin: 25px 85px;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #009578;
+    background: #ffff;
+    border-radius: 5px;
+    border: 1px solid #009578;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+}
+
+.pricing_button:hover {
+    background: #009578;
+    color: #fff;
+}
+
+.pricing_cost {
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    color: #009578;
+}
+
+.pricing_text {
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.pricing_plan_highlighted {
+    border-radius: 25px;
+    width: 500px;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    columns: #5555;
+    margin: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+
+.pricing_special_text {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background: #007c64;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) inset;
+}

@@ -1,0 +1,139 @@
+    /* Base Styles */
+    
+    * {
+        font-family: 'Noto Sans', sans-serif;
+    }
+    
+    a {
+        color: #eee;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: transparent;
+    }
+    
+    section {
+        display: block;
+        padding-top: 75px;
+    }
+    /* Header styles */
+    
+    .header-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: auto;
+    }
+    
+    header {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
+        z-index: 50;
+        /*Might not need*/
+    }
+    
+    header h3 {
+        font-size: 20px;
+        font-weight: lighter;
+        font-family: 'Noto Sans', sans-serif;
+        color: #eee;
+        line-height: 45px;
+        text-shadow: 1px 1px 3px #333;
+        padding-left: 20px;
+    }
+    
+    header .left-menu-wrapper {
+        padding-left: 10px;
+        flex: 2;
+        line-height: 45px;
+        text-align: left;
+    }
+    
+    header .right-menu-wrapper {
+        padding-left: 10px;
+        line-height: 45px;
+        text-align: left;
+    }
+    
+    header nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    /* Hero Image */
+    
+    #hero-image {
+        background: url("../images/hero.jpg") no-repeat fixed bottom;
+        height: 700px;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 30%;
+        width: 100%;
+        text-align: center;
+        color: #ccc;
+        font-size: 20px;
+    }
+    
+    .overlay .tag-line {
+        width: 40%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    
+    .overlay p {
+        font-size: 18px;
+        width: 70%;
+        margin: auto;
+    }
+    
+    .overlay button {
+        margin-top: 50px;
+        border-radius: 5px;
+        height: 50px;
+        font-size: 20px;
+        background-color: rosybrown;
+    }
+    
+    .overlay button:hover {
+        cursor: pointer;
+        opacity: 0.9;
+    }
+    
+    .description-one {
+        background-color: rgb(247, 230, 225);
+        display: flex;
+        flex-direction: row;
+        height: 80vh;
+    }
+    
+    .overlay-two {
+        padding-left: 280px;
+        width: 50vw;
+    }
+    
+    .overlay-two h2 {
+        font-size: 30px;
+        color: rgb(105, 33, 15);
+        padding: 30px 0;
+    }
+    
+    .overlay-two p {
+        font-size: 20px;
+    }
+    
+    .description-one-image {
+        height: 450px;
+        padding-left: 150px;
+    }
+    
+    .description-two {
+        background-color: rgb(247, 230, 225);
+        display: flex;
+        flex-direction: row;
+        height: 80vh;
+    }
