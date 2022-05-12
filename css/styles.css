@@ -143,7 +143,6 @@
     .description-two-image {
         width: 770px;
         height: 650px;
-        /* padding-right: 150px; */
     }
     
     .overlay-three {
@@ -164,6 +163,8 @@
         padding-bottom: 2%;
         
     }
+
+    /* Benefits section */
 
     .benefits{
         background-color: #141517;
@@ -200,8 +201,9 @@
         background-color: rosybrown;
     }
 
+    /* Testimonial section */
+
     .testimonial {
-        /* width: 720px; */
         display: flex;
         flex-direction: column;
         height: auto;
@@ -219,13 +221,8 @@
     .testimonial .testimonial-people{
         display: flex;
         height: auto;
-        /* margin: 120x auto;
-        padding-left: 12%;
-        padding-right: 12%; */
     }
 
-
-    
     .testimonial .testimonial-people .testimonial-person {
         display: flex;
         flex-direction: row-reverse;
@@ -260,8 +257,7 @@
     }
     
     .testimonial .testimonial-people .testimonial-person .quote p{
-        padding-top: 20px;
-        
+        padding-top: 20px;   
     }
     
     
